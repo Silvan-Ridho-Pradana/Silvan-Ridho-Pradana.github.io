@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <title>Document</title>
+    <style>
+      .img {
+        float: left;
+      }
+      body{
+        background-color: #c9ad7f;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav awal -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: #c9ad7f">
+      <div class="container">
+        <a class="navbar-brand me-2 fw-bold" href="#">BakCoff</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="conten.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reko">Rekomendasi</a>
+            </li>
+            <div class="icon mt-2 me-2">
+              <h4>
+                <a href="#panas"><i class="bi bi-bag-check-fill" style="color: white"></i></a>
+                <a href="https://wa.me/6281931437435?text=Nama%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan%3A%0AJumlah%3A"><i class="bi bi-envelope-fill" style="color: white"></i></a>
+              </h4>
+            </div>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav akhir -->
+    <!-- produk 1 -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class=" " style="margin-bottom: 20px">Mie Pangsit</h1>
+        <img class="img" src="menu/1g.jpg" alt="" style="width: 50%; margin-right: 20px" />
+        <p>
+          Espresso merupakan kopi yang dihasilkan dari proses penyeduhan kopi dengan tekanan dan suhu tinggi. Kopi espresso dibuat dengan menggiling kopi hingga halus, lalu dipadatkan atau biasa disebut “tamping”, kemudian kopi diseduh
+          dengan tekanan tinggi dengan suhu yang tinggi, sehingga menghasilkan ekstrak kopi yang kental.
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <h3>Rp.20.000</h3>
+          <h3 class="text-muted ml-2"><del>Rp.30.000</del></h3>
+        </div>
+        <div class="d-flex justify-content-center" style="margin-top: 10px">
+          <h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a class="btn btn-dark btn-lg" href="https://wa.me/6281931437435?text=Nama%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan%3A%0AJumlah%3A" role="button"><i class="fas fa-shopping-cart text-primary mr-1"></i>Order via WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <!-- akhir -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>

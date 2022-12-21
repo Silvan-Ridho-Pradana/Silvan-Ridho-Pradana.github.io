@@ -1,0 +1,34 @@
+/* .jumbotron {
+  padding: 2rem 1rem;
+  background-color: #c9ad7f;
+  height: 500px;
+} */
+
+#next {
+  background-color: #c9ad7f;
+  color: white;
+}
+#next:hover {
+  background-color: white;
+  color: #c9ad7f;
+  border-color: #c9ad7f;
+}
+#kanan {
+  text-align: center;
+}
+.row-container {
+  background-color: #c9ad7f;
+  margin: 0px;
+}
+#judul1 {
+  background-color: #c9ad7f;
+}
+/* icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+/* min plus */
+input{
+  border: none;
+}
+input:hover{
+  border: none;
+}
